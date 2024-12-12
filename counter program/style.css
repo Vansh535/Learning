@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttoncontainer {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin: auto;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    padding: 8px 15px;
+    margin: 4px 0;
+    border: none;
+    cursor: pointer;
+    width: 33%;
+    border-radius: 0.25rem;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#Counter Label {
+    width: 30%;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-top: 50px;
+    border-radius: 0.25rem;
+    background-color: #4CAF50;
+    color: white;
+}
